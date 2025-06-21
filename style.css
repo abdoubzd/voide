@@ -1,0 +1,43 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  background: url('https://f.top4top.io/p_3459zkzvm1.jpeg') no-repeat center center fixed;
+  background-size: cover;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #fff;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+}
+
+.content {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.8);
+}
+
+.btn {
+  display: block;
+  background-color: #59befa;
+  color: white;
+  padding: 15px;
+  margin: 15px auto;
+  width: 250px;
+  text-decoration: none;
+  border-radius: 10px;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #3daae4;
+}
